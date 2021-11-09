@@ -11,4 +11,4 @@ function Math() {
     )
 }
 
-export default Student;
+export default Math;
