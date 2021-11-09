@@ -1,0 +1,14 @@
+import React from 'react'
+import {Link} from 'react-router-dom'
+
+function History() {
+    return (
+        <>
+        <div>Math</div>
+        <Link to='/home'>History</Link>
+        <Link to='/student'>Student</Link>
+        </>
+    )
+}
+
+export default History;
