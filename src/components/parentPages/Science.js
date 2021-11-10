@@ -6,7 +6,7 @@ function Science() {
         <>
         <div>Science</div>
         <Link to='/home'>Home</Link>
-        <Link to='/student'>Parent</Link>
+        <Link to='/parent'>Parent</Link>
         </>
     )
 }
