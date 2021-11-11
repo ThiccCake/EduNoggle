@@ -8,8 +8,6 @@ Reactjs
 
 Bootstrap
 
-Firebase 
-
-Authentication for sign in
+Firebase Authentication for sign in
 
 Css
