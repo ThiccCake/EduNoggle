@@ -6,7 +6,11 @@ import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+//Student-Parent Tabs
 import Services from './Components/Services/Services';
+import ParentTab from './Components/ParentTab/Parents';
+import TeacherTab from './Components/TeacherTab/Teachers';
+
 import StudentService from './Components/StudentService/StudentService';
 import initializeAuthentication from './firebase/firebase.initialize';
 import PageNotFound from './PageNotFound/PageNotFound';
@@ -48,8 +52,14 @@ function App() {
             <Route path="/home">
                   <Home></Home>
             </Route>
-            <Route path="/services">
+            <Route path="/Students">
                     <Services></Services>
+            </Route>
+            <Route path="/Parents">
+                    <ParentTab></ParentTab>
+            </Route>
+            <Route path="/Teachers">
+                    <TeacherTab></TeacherTab>
             </Route>
             <Route path="/about">
                     <About></About>
@@ -57,9 +67,9 @@ function App() {
             <Route path="/student">
                     <StudentService></StudentService>
             </Route>
-            <Route path="/student">
+            {/* <Route path="/student">
                     <StudentService></StudentService>
-            </Route>
+            </Route> */}
             <Route path="*">
                       <PageNotFound></PageNotFound>
             </Route>
@@ -72,17 +82,7 @@ function App() {
 
 
 <button onClick={handleGoogleSignin}>Google signin</button>
-
-      
-      
-
-
-
-
-
-
-
-      
+    
     </div>
   );
 }
