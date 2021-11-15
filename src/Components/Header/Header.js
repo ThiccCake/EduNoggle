@@ -30,14 +30,16 @@ const Header = () => {
           <NavLink activeStyle={activeStyle} className="nav-link active" aria-current="page" to="/home">Home</NavLink>
         </li>
         <li className="nav-item">
-         
-          <NavLink activeStyle={activeStyle} className="nav-link" to="/services" >Our Services</NavLink>
-        </li>
-        <li className="nav-item">
                    <NavLink activeStyle={activeStyle}  className="nav-link" to="/about">About us</NavLink>
         </li>
         <li className="nav-item">
-                   <NavLink activeStyle={activeStyle}  className="nav-link" to="/about">For Parents</NavLink>
+          <NavLink activeStyle={activeStyle} className="nav-link" to="/students" >For Students</NavLink>
+        </li>
+        <li className="nav-item">
+                   <NavLink activeStyle={activeStyle}  className="nav-link" to="/parents">For Parents</NavLink>
+        </li>
+        <li className="nav-item">
+                   <NavLink activeStyle={activeStyle}  className="nav-link" to="/teachers">For Teachers</NavLink>
         </li>
         <li className="nav-item">
       
