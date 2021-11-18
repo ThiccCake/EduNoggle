@@ -34,47 +34,24 @@ console.log(data);
 const getData=data.slice(0,5);
     return (
         <>
-        <div className="overflow-hidden">
-        <Title></Title>
+            <div className="overflow-hidden">
+                <Title></Title>
+                {/* <div>
+                    <div className="fs-1 border rounded-3 fw-bold p-5">Our Course <button onClick={useHandler} type="button" className="btn btn-secondary">Show Details <FontAwesomeIcon icon={faArrowAltCircleRight}></FontAwesomeIcon></button>
+                    </div>
+                <div  className="row cart">{
+                    getData.map(item=><Body
+                    key={item.id}
+                    item={item}                
+                    ></Body>
+                    )
+                } 
+                </div>
+                </div> */}
 
-<div>
-    <div className="fs-1 border rounded-3 fw-bold p-5">Our Course <button onClick={useHandler} type="button" className="btn btn-secondary">Show Details <FontAwesomeIcon icon={faArrowAltCircleRight}></FontAwesomeIcon></button>
-    
-</div>
-
-<div  className="row cart">
-{
-    getData.map(item=><Body
-    key={item.id}
-    item={item}                
-    >
-
-    </Body>
-    
-    
-    )
-} 
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-<Topics></Topics>
-<Instructor></Instructor>
-
-        </div>
-          
-
-
-
-            
+                <Topics></Topics>
+                <Instructor></Instructor>
+            </div>    
         </>
     );
 };
