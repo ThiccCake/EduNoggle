@@ -23,7 +23,7 @@ const Title = () => {
                                <div>
                                <div className="header ">
                                {/* <h1 className="animate__animated animate__bounce">An animated element</h1> */}
-                                        <h1  className="Title animate__animated animate__heartBeat" > <span className="thumb " >Access </span>  To world class Education</h1>
+                                        <h1  className="Title animate__animated animate__heartBeat" > <span className="thumb " >Access </span>  to world class education</h1>
                                     </div>
                                     <div>
                                         <p className="p-2 text-center"><small> Welcome to our Subscription Consulting service </small></p>
@@ -32,7 +32,7 @@ const Title = () => {
 
                                     <div className="text-center mb-5">
                                     <button type="button" style={{borderRadius:"10px"}} className="btn btn-danger me-3 fs-3 px-4 " onClick={()=>handleClick("/student")}>Sign up</button>
-                                    <button type="button" onClick={()=>handleClick("/services")} style={{borderRadius:"10px"}}  className="btn btn-secondary fs-3 px-4">For school districts</button>
+                                    {/* <button type="button" onClick={()=>handleClick("/services")} style={{borderRadius:"10px"}}  className="btn btn-secondary fs-3 px-4">For school districts</button> */}
                                 </div>
                                </div>
 
