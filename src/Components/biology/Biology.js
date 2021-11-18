@@ -3,9 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Rating from 'react-rating';
 
-const Math = (props) => {
-
-    const {img,name,Instructor,rating,price}=props.bio;
+const Biology = (props) => {
+    const {img,name,Instructor,rating,price,desc}=props.bio;
 
     console.log(props);
 
@@ -16,10 +15,10 @@ const Math = (props) => {
       <img height="200" src={img} className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p className="card-text">{desc}</p>
         <div className="d-flex justify-content-between">
                      <div className="d-flex">
-                     <div>
+                        <div>
                            <h5>({rating})</h5>
                        </div>
 
@@ -48,4 +47,4 @@ const Math = (props) => {
     );
 };
 
-export default Math;
+export default Biology;
