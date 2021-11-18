@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "World History",
+      "price": 13.99,
+      "Instructor":"",
+      "img": "https://www.abc-clio.com/images/coverimages/9781598846737.png",
+      "rating": "4.5"
+    },
+    {
+      "id": 2,
+      "name": "World History II",
+      "price": 15.99,
+      "Instructor":"",
+      "img": "http://sites.clas.ufl.edu/history/files/2013/11/world-history-banner1.jpg",
+      "rating": "4.7"
+    },
+    {
+      "id": 3,
+      "name": "US History",
+      "price": 20000,
+      "Instructor":"",
+      "img": "https://www.legendsofamerica.com/wp-content/uploads/2020/03/USHistory.jpg",
+      "rating": "2.4"
+    },
+    {
+      "id": 4,
+      "name": "US History II",
+      "price": 20000,
+      "Instructor":"",
+      "img": "https://www.quia.com/files/quia/users/rmaufroid/major/top2.jpg",
+      "rating": "3.4"
+    },
+    {
+      "id": 5,
+      "name": "AP History",
+      "price": 20000,
+      "Instructor":"",
+      "img": "https://historycooperative.org/wp-content/uploads/2019/08/cropped-1280px-Raising_the_Flag_on_Iwo_Jima_larger-1.jpeg",
+      "rating": "4.3"
+    }
+    
+  ]
