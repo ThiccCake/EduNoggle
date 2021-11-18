@@ -27,22 +27,22 @@ const Instructor = () => {
     <div class="carousel-item active" style={{marginLeft:"450px",borderRadius:"20px"}}>
       <img  height="600px"  src={one} class="d-block w-50" alt="..."/>
       <div class="carousel-caption d-none d-md-block text-white fw-bold fs-2" style={{marginRight:"850px"}}>
-        <h5>Pre-school</h5>
-        <p>Math</p>
+        {/* <h5>Pre-school</h5> */}
+        <p>Pre-School</p>
       </div>
     </div>
     <div class="carousel-item" style={{marginLeft:"450px",borderRadius:"20px"}}>
       <img  height="600px"  src={two} class="d-block w-50" alt="..."/>
       <div class="carousel-caption d-none d-md-block text-danger fw-bold fs-2 " style={{marginRight:"850px"}}>
-        <h5>k-12 teachers</h5>
-        <p>English</p>
+        {/* <h5>k-12 teachers</h5> */}
+        <p>Elementary</p>
       </div>
     </div>
     <div class="carousel-item" style={{marginLeft:"450px",borderRadius:"20px"}}>
       <img  height="600px"  src={three} class="d-block w-50" alt="..."/>
       <div class="carousel-caption d-none d-md-block text-danger fs-2 fw-bold " style={{marginRight:"850px"}}>
-        <h5>k-12</h5>
-        <p>Mathematics</p>
+        {/* <h5>k-12</h5> */}
+        <p>Highschool</p>
       </div>
     </div>
   </div>
