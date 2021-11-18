@@ -4,7 +4,6 @@ import React from 'react';
 import Rating from 'react-rating';
 
 const Math = (props) => {
-
     const {img,name,Instructor,rating,price}=props.math;
 
     console.log(props);
@@ -16,7 +15,7 @@ const Math = (props) => {
       <img  height="200px" src={img} className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        {/* <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
         <div className="d-flex justify-content-between">
                      <div className="d-flex">
                      <div>
