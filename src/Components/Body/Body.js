@@ -5,7 +5,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 
 const Body = (props) => {
-    const {img,name,Instructor,rating,price}=props.item;
+    const {img,name,Instructor,rating,price,desc}=props.item;
 //--------------------------------- display card-----------------------------------
     return (
         <>
@@ -21,7 +21,7 @@ const Body = (props) => {
                 <div className="card-body">
                     <h3 classNames="card-title fw-bolder">{name}</h3>
                     <h5 className="card-title fw-bolder instuctor">{Instructor}</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p className="card-text">{desc}</p>
                     <p className="card-text fs-5"><small className="text-muted">${price}</small></p>
                     
 
