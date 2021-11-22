@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Quaradratic Equation",
+      "name": "Applied Mathematics",
       "price": 13.99,
       "Instructor":"",
       "img": "https://i1.wp.com/www.additudemag.com/wp-content/uploads/2021/09/GettyImages-1044168372.jpg?resize=1280%2C720px&ssl=1",
@@ -9,15 +9,15 @@
     },
     {
       "id": 2,
-      "name": "theorem",
+      "name": "Geometry",
       "price": 15.99,
       "Instructor":"",
-      "img": "http://sms.ssd6.org/files/2016/08/math-768x548.jpg",
+      "img": "https://process.filepicker.io/APHE465sSbqvbOIStdwTyz/rotate=deg:exif/resize=fit:crop,height:566,width:944/output=quality:80,compress:true,strip:true,format:jpg/cache=expiry:max/https://cdn.filestackcontent.com/li8CIi1MR4WXOvQPcKJN",
       "rating": "4.7"
     },
     {
       "id": 3,
-      "name": "trigonometry",
+      "name": "Pre-Calculus",
       "price": 20000,
       "Instructor":"",
       "img": "https://demmelearning.com/wp-content/uploads/2020/07/Make-Math-Engaging-for-Kids-with-Philosophy-.png",
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "name": "geoMetry",
+      "name": "Calculus",
       "price": 20000,
       "Instructor":"",
       "img": "https://www.mathcad.com/-/media/Images/Mathcad/homepage/mathcad-virtual-conference-856x602.png",
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "name": "Patiginit",
+      "name": "Statistics",
       "price": 20000,
       "Instructor":"",
       "img": "https://bhi61nm2cr3mkdgk1dtaov18-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/beautiful-math.jpg",
