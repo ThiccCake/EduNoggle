@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
 import ParentTab from './Components/ParentTab/Parents';
 import TeacherTab from './Components/TeacherTab/Teachers';
+import SubscribeTab from './Components/SubscribeTab/Subscribe';
 
 import StudentService from './Components/StudentService/StudentService';
 import initializeAuthentication from './firebase/firebase.initialize';
@@ -66,6 +67,9 @@ function App() {
             </Route>
             <Route path="/student">
                     <StudentService></StudentService>
+            </Route>
+            <Route path="/subscribe">
+                    <SubscribeTab></SubscribeTab>
             </Route>
             {/* <Route path="/student">
                     <StudentService></StudentService>
